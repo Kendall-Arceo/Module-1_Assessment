@@ -1,85 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css"> 
-
-    <title>Portfolio website</title>
-
-    <style>
-    
-    html {
-        background:url('Assets/Images/background.png') no-repeat center center fixed;
-        -webkit- background-size:cover;
-        -moz- background-size:cover;
-        -o- background-size:cover; 
-        background-size:cover;
-
-    }
-    
-    </style>
-
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <header>
-        <div class="Container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kendall Arceo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Portfolio.html">Portfolio</a>
+                </li>
 
-            <p Class="Myname"> Kendall Arceo
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+
+    <div class ="container About">
+        <div class ="row bottom">
+            <h2>About</h2>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="/Assets/Images/Profile.jpg" class="rounded mx-auto d-block propic" alt="...">
+            </div>
+            <div class="col">
+              <p>
+                Welcome to my first web development page! I come from a non-traditional background for coding as I have a degree in Nutrition. Currently, I am taking a coding class to better my skill set for future employers and to hopefully have a better job outlook. Choosing this path was a full 180 degree turn as I have no background in this subject. I am willing to learn and master all topic the best I can to excel in this newfound career.
+
+              </p>
+            </div>
+        </div>
+
+        <div class ="row">
+            <p> 
+                A little bit about me: I was not born here in Houston, nor in the states.  I come from Quezon City, Philippines and I moved here to the U.S. in 2003 when I was 8 years old. My parents moved here to give a better life to their children and there are currently 4 of us in total. I strive to have the same integrity and patience as my parents to be successful. I hope that one day I can spoil them with everything that they need, since they deserve everything   
             </p>
-
-            <nav>
-                <ol>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Portfolio</a></li>
-
-                </ol>
-
-            </nav>
-
-
-
-
-
         </div>
 
-    </header>
-
-
-    <br><br><br>
-
-    <section class="Wrapper">
-
-        <div class="Aboutme">
-
-            About Me!
-
+        <div class ="row">
+            <p> 
+                When I am not in class or at work, I like to workout at my local gym or play video games at my home. I am versatile in any type of video game, whether it would be RPG’s, MOBA’s Open world, or Single player. One of the many things that interest me in coding is maybe putting my career path into game development. I might find something else that I like as I continue my journey, but that information will most definitely be updated in my portfolio when the time comes.  
+            </p>
         </div>
 
-        <br><br>
+    </div>
 
-        <img src="Assets/Images/Picture2.jpg" alt="Profile Picture" width="125" height="180">
-        <p1>Welcome to my first web development page! I come from a non-traditional background for coding as I have a degree in Nutrition. Currently, I am taking a coding class to better my skill set for future employers and to hopefully have a better job outlook. Choosing this path was a full 180 degree turn as I have no background in this subject. I am willing to learn and master all topic the best I can to excel in this newfound career.</p1>
-
-         <br><br>
-         
-        <p2>A little bit about me: I was not born here in Houston, nor in the states.  I come from Quezon City, Philippines and I moved here to the U.S. in 2003 when I was 8 years old. My parents moved here to give a better life to their children and there are currently 4 of us in total. I strive to have the same integrity and patience as my parents to be successful. I hope that one day I can spoil them with everything that they need, since they deserve everything.</p2>
-
-         <br><br>
-
-        <p3>When I am not in class or at work, I like to workout at my local gym or play video games at my home. I am versatile in any type of video game, whether it would be RPG’s, MOBA’s Open world, or Single player. One of the many things that interest me in coding is maybe putting my career path into game development. I might find something else that I like as I continue my journey, but that information will most definitely be updated in my portfolio when the time comes.</p3>
-    </section>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Copyright @</a>
+        </div>
+    </nav>
 </body>
-
-<br><br><br><br><br><br><br><br><br><br>
-
-<footer class="footer">
-
-</footer>
-
 </html>
